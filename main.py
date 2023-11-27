@@ -12,7 +12,9 @@ theTurtle.penup()
 turtle_screen.addshape(image)
 theTurtle.shape(image)
 while 1==1:
-    theTurtle.goto(randint(-300,0),randint(0,400))
+    theTurtle.goto(randint(-300,300),randint(-300,300))
+
+
 
 
 
