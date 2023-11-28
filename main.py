@@ -3,17 +3,17 @@ import turtle
 from random import randint
 image="turtle1.gif"
 
+score = 0
 
 
+scoreTable = turtle.Turtle()
+scoreTable.penup()
+scoreTable.hideturtle()
+scoreTable.setposition(-290, 310)
 
-skorTablosu = turtle.Turtle()
-skorTablosu.penup()
-skorTablosu.hideturtle()
-skorTablosu.setposition(-290, 310)
 
-
-skor_metni = "Skor: 100"
-skorTablosu.write(skor_metni, False, align='left', font=('Arial', 14, 'normal'))
+score_text = f"Score : {score}"
+scoreTable.write(score_text, False, align='left', font=('Arial', 14, 'normal'))
 
 
 
